@@ -1,0 +1,48 @@
+.grid-container {
+    margin-top: 60px;
+    display: inline-grid;
+    grid-template-columns: 495px 495px 495px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    background-color: #00bfff;
+    padding: 10px;
+    align-content: center;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  a:link, a:visited {
+    background-color: #ff6600;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(244, 252, 244);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .div-img{
+      margin-left: 90px;
+      height: 301px;
+      width: 300px;
+  }
+ /* .div-link{
+      margin-block-end: 0px;
+  }*/
+  .div-body{
+      text-align: center;
+      margin-left: 20px;
+      height:260px ;
+      width: 400px;
+      
+  }
